@@ -49,6 +49,3 @@ if uploaded_file is not None:
     ax.set_title(f"{label} ({confidence_percent:.2f}% confidence)", fontsize=14, color=color)
     st.pyplot(fig)
 
-# Optional footer
-st.markdown("---")
-st.markdown("<p style='text-align: center;'>Developed by Manmeet Singh | Punjabi University, Patiala</p>", unsafe_allow_html=True)
